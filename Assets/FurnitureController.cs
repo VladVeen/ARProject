@@ -8,39 +8,37 @@ public class FurnitureController : MonoBehaviour
     public GameObject[] TableArray;
     public GameObject[] SofaArray;
     public GameObject[] ArmchairArray;
-    public GameObject[] LampArray;
     public GameObject[] NightstandArray;
+    
+    public static GameObject СurrentFurniture;
+    public static GameObject[] СurrentCategory;
 
-    public static GameObject currentFurniture;
 
-    public void SelectChair(int ModelNumber)
+    public void SelectCategory(int currentCategory)
     {
-        currentFurniture = ChairArray[ModelNumber];
+        switch (currentCategory)
+        {
+            case 0:
+                СurrentCategory = ChairArray;
+                break;
+            case 1:
+                СurrentCategory = TableArray;
+                break;
+            case 2:
+                СurrentCategory = SofaArray;
+                break;
+            case 3:
+                СurrentCategory = ArmchairArray;
+                break;
+            case 4:
+                СurrentCategory = NightstandArray;
+                break;
+        }
     }
 
-    public void SelectTable(int ModelNumber)
+    public void SelectModel(int modelNumber)
     {
-        currentFurniture = TableArray[ModelNumber];
-    }
-
-    public void SelectSofa(int ModelNumber)
-    {
-        currentFurniture = SofaArray[ModelNumber];
-    }
-
-    public void SelectArmchair(int ModelNumber)
-    {
-        currentFurniture = ArmchairArray[ModelNumber];
-    }
-
-    public void SelectLamp(int ModelNumber)
-    {
-        currentFurniture = LampArray[ModelNumber];
-    }
-
-    public void SelectNightstand(int ModelNumber)
-    {
-        currentFurniture = NightstandArray[ModelNumber];
+        СurrentFurniture = СurrentCategory[modelNumber];
     }
 
 }

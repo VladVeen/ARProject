@@ -64,10 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FurnitureController.cs" />
-    <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\Rotation.cs" />
-    <Compile Include="Assets\SelectObject.cs" />
     <Compile Include="Assets\SelectionMenu.cs" />
+    <Compile Include="Assets\ShowObjectScene.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
