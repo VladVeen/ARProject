@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 165fd32e7dae39f48b91bc4d4390a61b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GroundPlaneStage: {fileID: 1980070586}
+  _groundPlaneStage: {fileID: 1980070586}
 --- !u!1 &921353449
 GameObject:
   m_ObjectHideFlags: 0

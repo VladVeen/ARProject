@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5509182834307980998
+--- !u!1 &404636350551046088
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6743241533244419570}
-  - component: {fileID: 7309984183452539382}
-  - component: {fileID: 6958584958981493660}
+  - component: {fileID: 8231463966084647217}
+  - component: {fileID: 814885068888944087}
+  - component: {fileID: 9107862640911558819}
   m_Layer: 0
   m_Name: Chair7
   m_TagString: Untagged
@@ -18,35 +18,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6743241533244419570
+--- !u!4 &8231463966084647217
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5509182834307980998}
-  m_LocalRotation: {x: 0, y: 0.7072302, z: 0.7069834, w: 0}
+  m_GameObject: {fileID: 404636350551046088}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 90, y: 90, z: 90}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -89.98, y: 180, z: 0}
---- !u!33 &7309984183452539382
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!33 &814885068888944087
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5509182834307980998}
+  m_GameObject: {fileID: 404636350551046088}
   m_Mesh: {fileID: -1238218227891777710, guid: 5553df07d19888b46bf8d600631a4ca2, type: 3}
---- !u!23 &6958584958981493660
+--- !u!23 &9107862640911558819
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5509182834307980998}
+  m_GameObject: {fileID: 404636350551046088}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
